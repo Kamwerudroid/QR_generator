@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="wrapper">
+      <h2>Qr Code Generator</h2>
+      <p>Enter URL or Text to generator QR Code</p>
+      <p class="msg"></p>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Enter URL or Text!"
+        id="input-value"
+      />
+      <div class="sizes">
+        <p>Select Size</p>
+        <select id="size">
+          <option value="100">100x100</option>
+          <option value="200">200x200</option>
+          <option value="300">300x300</option>
+          <option value="400">400x400</option>
+          <option value="500">500x500</option>
+          <option value="600">600x600</option>
+          <option value="700">700x700</option>
+        </select>
+      </div>
+      <!-- output of qr code -->
+      <div id="qrCodeScreen"></div>
+      <div class="btns">
+        <button type="submit" class="btn-generator">Generate QR Code</button>
+        <a href="" class="btn-save" download="qr_code.png"> Save </a>
+      </div>
+    </div>
+  </div>
